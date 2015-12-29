@@ -35,7 +35,7 @@ settings:
 
 # clear contents of pclint folder
 clean_settings:
-	rm pclint/*
+	rm -f pclint/*
 
 # lint a number of source files
 lint:
